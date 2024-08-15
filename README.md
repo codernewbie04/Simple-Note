@@ -44,7 +44,7 @@
 ## How to Build and Run
 
 1.  **Clone the repository**: 
-    `git clone https://github.com/yourusername/simple-note.git` 
+    `git clone https://github.com/codernewbie04/Simple-Note.git` 
     
 3.  **Open in Android Studio**:
     -   Open the project in Android Studio.
