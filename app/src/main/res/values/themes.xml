@@ -1,9 +1,23 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.SimpleNote" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SimpleNote" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryDark">@color/blue_200</item>
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+        <item name="android:textViewStyle">@style/ComfortaaFont</item>
+        <item name="android:colorBackground">@color/background</item>
     </style>
 
+    <style name="Theme.SimpleNote.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+    <style name="Theme.SimpleNote.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
     <style name="Theme.SimpleNote" parent="Base.Theme.SimpleNote" />
+
+    <style name="ComfortaaFont">
+        <item name="android:fontFamily">@font/comfortaa_regular</item>
+    </style>
 </resources>
