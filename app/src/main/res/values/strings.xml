@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SimpleNote</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="error_empty_fields">Title dan Description tidak boleh kosong!</string>
+    <string name="exit_confirmation_title">Anda yakin ingin keluar?</string>
+    <string name="exit_confirmation_message">Data yang sudah diisi akan hilang</string>
+    <string name="yes">Ya</string>
+    <string name="cancel">Batalkan</string>
 </resources>
