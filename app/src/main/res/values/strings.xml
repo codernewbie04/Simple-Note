@@ -7,4 +7,5 @@
     <string name="exit_confirmation_message">Data yang sudah diisi akan hilang</string>
     <string name="yes">Ya</string>
     <string name="cancel">Batalkan</string>
+    <string name="empty_state_title">Belum ada note</string>
 </resources>

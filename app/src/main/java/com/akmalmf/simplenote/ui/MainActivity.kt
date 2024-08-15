@@ -11,6 +11,8 @@ import com.akmalmf.simplenote.databinding.ActivityMainBinding
 import com.akmalmf.simplenote.ui.adapter.NoteAdapter
 import com.akmalmf.simplenote.ui.base.BaseActivity
 import com.akmalmf.simplenote.ui.viewmodel.NoteViewModel
+import com.akmalmf.simplenote.utils.toGone
+import com.akmalmf.simplenote.utils.toVisible
 
 class MainActivity : BaseActivity() {
     private lateinit var viewModel: NoteViewModel
@@ -58,6 +60,13 @@ class MainActivity : BaseActivity() {
 
         viewModel.notes.observe(this) { notes ->
             notes?.let {
+                if(it.isEmpty()){
+                    binding.emptyState.toVisible()
+                    binding.rvNotes.toGone()
+                } else {
+                    binding.emptyState.toGone()
+                    binding.rvNotes.toVisible()
+                }
                 adapter.setItem(it.toMutableList())
             }
         }
