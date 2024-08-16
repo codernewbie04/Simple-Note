@@ -19,7 +19,6 @@
 -   **ViewModel**: Manages UI-related data in a lifecycle-conscious way.
 -   **Data Binding**: Binds UI components in your layouts to data sources in your app using a declarative format.
 
-
 ## Project Structure
 
 - **`data`**: Contains data models and the Room database setup.
@@ -56,9 +55,7 @@
 5.  **Install**:
 	-   You can also download it directly [here](https://github.com/codernewbie04/Simple-Note/releases/download/release/app-debug.apk)
 
-## Screenshots
-
-
+## Screenshots and Video
 <table>
   <tr>
 	  <td><img src='https://github.com/codernewbie04/Simple-Note/blob/develop/assets/list.jpg?raw=true'></td>
@@ -66,4 +63,11 @@
 	   <td><img src='https://github.com/codernewbie04/Simple-Note/blob/develop/assets/empty.jpg?raw=true'></td>
   </tr>
 </table>
+
+
+https://github.com/user-attachments/assets/d317e1e8-15cf-493d-a244-38a97292abfd
+
+
+
+
 
